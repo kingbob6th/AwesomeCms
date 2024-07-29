@@ -25,6 +25,7 @@
   <ItemGroup>
     <Folder Include="Dtos\" />
     <Folder Include="HelperModels\Responses\" />
+    <Folder Include="uploads\managers\" />
   </ItemGroup>
 
 </Project>
