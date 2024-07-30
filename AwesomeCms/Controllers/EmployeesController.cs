@@ -77,7 +77,7 @@ namespace AwesomeCms.Controllers
                 }
             }
 
-            return Ok("Employee Updated");
+            return Ok(employee);
         }
         
         // DELETE: api/Employees/5
@@ -93,7 +93,7 @@ namespace AwesomeCms.Controllers
             _context.Employees.Remove(employee);
             await _context.SaveChangesAsync();
 
-            return Ok("Employee Deleted");
+            return Ok(employee);
         }
 
         private bool EmployeeExists(int id)
