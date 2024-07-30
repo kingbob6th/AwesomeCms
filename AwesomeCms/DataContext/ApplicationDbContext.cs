@@ -11,6 +11,7 @@ namespace AwesomeCms.DataContext
         {
         }
 
+        public DbSet<Employee> Employees { get; set; }
         public DbSet<Manager> Managers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
